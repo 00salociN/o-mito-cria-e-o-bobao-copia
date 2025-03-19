@@ -102,6 +102,26 @@ Update professor set Nome = "Haraldo" where Nfunc = "9";
 
 update aluno set idade = "21" where idade = "20";
 update aluno set idade = "20" where idade = "19";
-Update aluno set idade = idade + "0" where idade < 100;
 
 update turma set NAluno = "37" where NAluno = "40" or NAluno = "35";
+
+Update matricula set nota = 0 where numero = 2;
+
+update aluno set datanasc = "2002-01-02" where nome like "Ni_____";
+
+--------------------------------------------------------------------------
+                            Delete Dados
+--------------------------------------------------------------------------
+
+
+delete from matricula where nota between 9 and 10;
+
+delete from aluno where nome like "n%";
+delete from aluno where RA > 99;
+
+delete from matricula where numero = 2;
+
+delete from turma where NAluno = 37;
+
+delete from aluno where RA like "1%";
+
