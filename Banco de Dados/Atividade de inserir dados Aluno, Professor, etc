@@ -102,6 +102,6 @@ Update professor set Nome = "Haraldo" where Nfunc = "9";
 
 update aluno set idade = "21" where idade = "20";
 update aluno set idade = "20" where idade = "19";
-Update aluno set idade = "0" + idade where idade = < 100;
+Update aluno set idade = 0+ idade where idade = < 100;
 
 update turma set NAluno = "37" where NAluno = "40" or NAluno = "35";
