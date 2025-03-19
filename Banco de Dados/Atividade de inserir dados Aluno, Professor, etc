@@ -125,3 +125,4 @@ delete from turma where NAluno = 37;
 
 delete from aluno where RA like "1%";
 
+delete from disciplina where sigla like "%%";
