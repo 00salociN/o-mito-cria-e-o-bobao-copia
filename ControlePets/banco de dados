@@ -1,0 +1,10 @@
+create database bd_controle_pets;
+
+use bd_controle_pets;
+
+create table pets (
+id int auto_increment primary key,
+nome_pet varchar(100) not null,
+raca varchar(100),
+nome_tutor varchar(150) not null
+);
